@@ -20,12 +20,60 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/Consumo/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3Vtb1xDcmVhdGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/Consumo/Delete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3Vtb1xEZWxldGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/Consumo/Detail.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3Vtb1xEZXRhaWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/Consumo/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3Vtb1xFZGl0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/Consumo/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3Vtb1xJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/DerechoAgua/Delete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVyZWNob0FndWFcRGVsZXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/DerechoAgua/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVyZWNob0FndWFcRWRpdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/DerechoAgua/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVyZWNob0FndWFcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/Empleado/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbGVhZG9cQ3JlYXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/Empleado/Delete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbGVhZG9cRGVsZXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/Empleado/Detail.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbGVhZG9cRGV0YWlsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/Empleado/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbGVhZG9cRWRpdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/Empleado/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbGVhZG9cSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/FetchData.razor]
@@ -34,6 +82,106 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/Mecha/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVjaGFcQ3JlYXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/Mecha/Delete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVjaGFcRGVsZXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/Mecha/Detail.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVjaGFcRGV0YWlsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/Mecha/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVjaGFcRWRpdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/Mecha/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVjaGFcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/Mora/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9yYVxDcmVhdGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/Mora/Delete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9yYVxEZWxldGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/Mora/Detail.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9yYVxEZXRhaWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/Mora/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9yYVxFZGl0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/Mora/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9yYVxJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/RegistroAgua/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cm9BZ3VhXENyZWF0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/RegistroAgua/Delete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cm9BZ3VhXERlbGV0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/RegistroAgua/Detail.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cm9BZ3VhXERldGFpbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/RegistroAgua/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cm9BZ3VhXEVkaXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/RegistroAgua/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cm9BZ3VhXEluZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/Rol/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9sXENyZWF0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/Rol/Delete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9sXERlbGV0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/Rol/Detail.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9sXERldGFpbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/Rol/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9sXEVkaXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/Rol/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9sXEluZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/Usuario/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb1xDcmVhdGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/Usuario/Delete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb1xEZWxldGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/Usuario/Detail.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb1xEZXRhaWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/Usuario/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb1xFZGl0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Pages/Usuario/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb1xJbmRleC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Lenovo X230/Desktop/Blazor/BlazorAppProyectoAguaAPI/BlazorAppProyectoAguaAPI/Shared/SurveyPrompt.razor]
