@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Pages\DerechoAgua\Create.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ProyectoAgua.EN">
+      <HintPath>..\..\..\..\Documents\sitio2\ProyectoAgua.EN.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\DerechoAgua\Create.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\DerechoAgua\Create.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\DerechoAgua\Create.razor" />
+  </ItemGroup>
+
+</Project>

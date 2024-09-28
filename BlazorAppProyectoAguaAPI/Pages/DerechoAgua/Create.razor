@@ -1,0 +1,67 @@
+﻿@page "/derechoAgua/create"
+@using ProyectoAgua.EN;
+@using BlazorAppProyectoAguaAPI.Data;
+@inject HttpClient Http;
+@inject NavigationManager NavManager
+
+<h3>Derecho Agua</h3>
+
+<div class="row">
+    <div class="col-sm-12">
+        <label class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="idNombre" @bind-value="derechoAgua.Nombre" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <label class="form-label">Pasaje</label>
+        <input type="text" class="form-control" id="idPasaje" @bind-value="derechoAgua.Pasaje" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <label class="form-label">Casa</label>
+        <input type="text" class="form-control" id="idCasa" @bind-value="derechoAgua.Casa" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <button class="btn btn-primary" @onclick="CreateDerechoAgua">Guardar</button>
+        <button class="btn btn-secondary" @onclick="Index">Regresar</button>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <span style="color:red; font-weight:bold">@error</span>
+    </div>
+</div>
+@code {
+    DerechoAgua? derechoAgua = new DerechoAgua();
+    string error = "";
+
+    public async Task CreateDerechoAgua()
+    {
+        try
+        {
+            var resultado = await Http.PostAsJsonAsync<DerechoAgua>("DerechoAgua", derechoAgua);
+
+            if (Convert.ToInt32(resultado.StatusCode) == 200)
+            {
+                Index();
+            }
+            else
+            {
+                error = "Error al Ingresar el DerechoAgua";
+            }
+        }
+        catch (Exception ex)
+        {
+            throw new Exception(ex.Message.ToString());
+        }
+    }
+
+    void Index()
+    {
+        NavManager.NavigateTo("/derechoAgua/index");
+    }
+}

@@ -1,0 +1,113 @@
+﻿@page "/derechoAgua/index"
+@using ProyectoAgua.EN;
+@using BlazorAppProyectoAguaAPI.Data;
+@using System.Text.Json;
+@inject HttpClient http
+@inject NavigationManager NavManager;
+
+<PageTitle>Index</PageTitle>
+
+<button id="idNuevo" class="btn btn-primary" @onclick="newDerechoAgua">Nuevo Derecho</button>
+<h3>Buscar</h3>
+<div class="row">
+    <div class="col-sm-12">
+        <label class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <label class="form-label">Pasaje</label>
+        <input type="text" class="form-control" id="pasaje" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <label class="form-label">Casa</label>
+        <input type="text" class="form-control" id="casa" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <button class="btn btn-primary" @onclick="BuscarDerechoAgua">Buscar</button>
+    </div>
+</div>
+@if (derechoAguas == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Pasaje</th>
+                <th>Casa</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var derechoAgua in derechoAguas)
+            {
+                <tr>
+                    <td>@derechoAgua.Nombre</td>
+                    <td>@derechoAgua.Pasaje</td>
+                    <td>@derechoAgua.Casa</td>
+                  
+                    <td><button class="btn btn-success" @onclick="(() => goModify(derechoAgua.Id))">Modificar</button></td>
+                    <td><button class="btn btn-info" @onclick="(() => goDetail(derechoAgua.Id))">Detalle</button></td>
+                    <td><button class="btn btn-danger" @onclick="(() => goDelete(derechoAgua.Id))">Eliminar</button></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private DerechoAgua[]? derechoAguas;
+
+    //RolDTO rolbus = new RolDTO();
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            derechoAguas = await http.GetFromJsonAsync<DerechoAgua[]>("DerechoAgua");
+        }
+        catch (Exception ex)
+        {
+            throw new Exception(ex.Message);
+        }
+    }
+
+    private async void BuscarDerechoAgua()
+    {
+        /*var result = await http.PostAsJsonAsync("Rol/Buscar", rolbus);
+        var content = await result.Content.ReadAsStringAsync();
+        roles = JsonSerializer.Deserialize<Rol[]>(content,
+            new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+        StateHasChanged();*/
+    }
+
+    void newDerechoAgua()
+    {
+        NavManager.NavigateTo("/derechoAgua/create");
+    }
+
+    void goModify(int pId)
+    {
+        NavManager.NavigateTo("/derechoAgua/edit/" + pId);
+
+    }
+
+    void goDetail(int pId)
+    {
+        NavManager.NavigateTo("/derechoAgua/detail/" + pId);
+    }
+
+    void goDelete(int pId)
+    {
+        NavManager.NavigateTo("/derechoAgua/delete/" + pId);
+    }
+}
