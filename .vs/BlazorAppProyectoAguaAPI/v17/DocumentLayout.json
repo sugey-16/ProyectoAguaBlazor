@@ -1,0 +1,766 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\blazorappproyectoaguaapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\blazorappproyectoaguaapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\consumo\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\consumo\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\mecha\\detail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\mecha\\detail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\mecha\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\mecha\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\mecha\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\mecha\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\empleado\\detail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\empleado\\detail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\empleado\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\empleado\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\empleado\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\empleado\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\derechoagua\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\derechoagua\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\derechoagua\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\derechoagua\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\derechoagua\\detail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\derechoagua\\detail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\derechoagua\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\derechoagua\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\derechoagua\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\derechoagua\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\consumo\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\consumo\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\consumo\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\consumo\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\consumo\\detail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\consumo\\detail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\consumo\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\consumo\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\data\\weatherforecastservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\data\\weatherforecastservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\data\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\data\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\wwwroot\\favicon.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\wwwroot\\favicon.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\rol\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\rol\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\usuario\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\usuario\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\registroagua\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\registroagua\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\mora\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\mora\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\mora\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\mora\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\mora\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\mora\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\mora\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\mora\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\mora\\detail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\mora\\detail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\empleado\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\empleado\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\usuario\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\usuario\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\usuario\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\usuario\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\usuario\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\usuario\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\rol\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\rol\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\registroagua\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\registroagua\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\registroagua\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\registroagua\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\mecha\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\mecha\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\empleado\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\empleado\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\mecha\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\mecha\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\pages\\rol\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\pages\\rol\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|c:\\users\\panda\\source\\repos\\proyectoaguablazor\\blazorappproyectoaguaapi\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BB962C-DD66-4B00-9EAA-D90A7D5AAACD}|BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj|solutionrelative:blazorappproyectoaguaapi\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\DerechoAgua\\Index.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\DerechoAgua\\Index.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\DerechoAgua\\Index.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\DerechoAgua\\Index.razor",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAAAFMAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Empleado\\Create.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\Empleado\\Create.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Empleado\\Create.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\Empleado\\Create.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Mecha\\Create.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\Mecha\\Create.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Mecha\\Create.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\Mecha\\Create.razor",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Consumo\\Create.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\Consumo\\Create.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Consumo\\Create.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\Consumo\\Create.razor",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Detail.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\DerechoAgua\\Detail.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\DerechoAgua\\Detail.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\DerechoAgua\\Detail.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\DerechoAgua\\Detail.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Mecha\\Delete.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\Mecha\\Delete.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Mecha\\Delete.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\Mecha\\Delete.razor",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\DerechoAgua\\Delete.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\DerechoAgua\\Delete.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\DerechoAgua\\Delete.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\DerechoAgua\\Delete.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Program.cs",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T16:58:37.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlazorAppProyectoAguaAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-02T16:58:37.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\DerechoAgua\\Edit.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\DerechoAgua\\Edit.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\DerechoAgua\\Edit.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\DerechoAgua\\Edit.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Detail.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Empleado\\Detail.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\Empleado\\Detail.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Empleado\\Detail.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\Empleado\\Detail.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Detail.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Mecha\\Detail.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\Mecha\\Detail.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Mecha\\Detail.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\Mecha\\Detail.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\DerechoAgua\\Create.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\DerechoAgua\\Create.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\DerechoAgua\\Create.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\DerechoAgua\\Create.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Delete.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Empleado\\Delete.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\Empleado\\Delete.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Empleado\\Delete.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\Empleado\\Delete.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Consumo\\Index.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\Consumo\\Index.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Consumo\\Index.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\Consumo\\Index.razor",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Consumo\\Edit.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\Consumo\\Edit.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Consumo\\Edit.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\Consumo\\Edit.razor",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAF8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Detail.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Consumo\\Detail.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\Consumo\\Detail.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Consumo\\Detail.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\Consumo\\Detail.razor",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAD8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Delete.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Consumo\\Delete.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\Consumo\\Delete.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Consumo\\Delete.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\Consumo\\Delete.razor",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwDoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WeatherForecastService.cs",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Data\\WeatherForecastService.cs",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Data\\WeatherForecastService.cs",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Data\\WeatherForecastService.cs",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Data\\WeatherForecastService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T16:58:37.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Data\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Data\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Data\\WeatherForecast.cs",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Data\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T16:58:37.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "favicon.png",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\wwwroot\\favicon.png",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\wwwroot\\favicon.png",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\wwwroot\\favicon.png",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\wwwroot\\favicon.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-10-02T16:58:37.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Index.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Create.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Rol\\Create.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\Rol\\Create.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Rol\\Create.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\Rol\\Create.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Create.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Usuario\\Create.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\Usuario\\Create.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Usuario\\Create.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\Usuario\\Create.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Create.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\RegistroAgua\\Create.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\RegistroAgua\\Create.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\RegistroAgua\\Create.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\RegistroAgua\\Create.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Create.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Mora\\Create.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\Mora\\Create.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Mora\\Create.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\Mora\\Create.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Edit.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Mora\\Edit.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\Mora\\Edit.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Mora\\Edit.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\Mora\\Edit.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Edit.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Empleado\\Edit.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\Empleado\\Edit.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Empleado\\Edit.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\Empleado\\Edit.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Detail.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Mora\\Detail.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\Mora\\Detail.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Mora\\Detail.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\Mora\\Detail.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Delete.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Mora\\Delete.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\Mora\\Delete.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Mora\\Delete.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\Mora\\Delete.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Mora\\Index.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\Mora\\Index.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Mora\\Index.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\Mora\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\_Imports.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\_Imports.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\_Imports.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\App.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\App.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\App.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\_Host.cshtml",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\_Host.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Counter.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\Counter.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Usuario\\Index.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\Usuario\\Index.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Usuario\\Index.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\Usuario\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Delete.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Usuario\\Delete.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\Usuario\\Delete.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Usuario\\Delete.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\Usuario\\Delete.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Rol\\Index.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\Rol\\Index.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Rol\\Index.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\Rol\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\RegistroAgua\\Index.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\RegistroAgua\\Index.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\RegistroAgua\\Index.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\RegistroAgua\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Edit.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Usuario\\Edit.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\Usuario\\Edit.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Usuario\\Edit.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\Usuario\\Edit.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Mecha\\Index.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\Mecha\\Index.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Mecha\\Index.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\Mecha\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Edit.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\RegistroAgua\\Edit.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\RegistroAgua\\Edit.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\RegistroAgua\\Edit.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\RegistroAgua\\Edit.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Empleado\\Index.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\Empleado\\Index.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Empleado\\Index.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\Empleado\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Edit.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Mecha\\Edit.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\Mecha\\Edit.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Mecha\\Edit.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\Mecha\\Edit.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Edit.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Rol\\Edit.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Pages\\Rol\\Edit.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Pages\\Rol\\Edit.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Pages\\Rol\\Edit.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorAppProyectoAguaAPI\\Shared\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "BlazorAppProyectoAguaAPI\\Shared\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:58:37.615Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

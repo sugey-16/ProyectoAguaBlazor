@@ -12,6 +12,8 @@ builder.Services.AddServerSideBlazor();
 //    BaseAddress = new Uri("http://ProyectoAgua.somee.com")
 //});
 
+
+// Entry Point  G.G.
 builder.Services.AddScoped(sp => new HttpClient
 {
     BaseAddress = new Uri("https://localhost:7195/api/")
