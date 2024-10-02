@@ -7,29 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="Pages\DerechoAgua\Create.razor" />
-    <Content Remove="Pages\DerechoAgua\Detail.razor" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <UpToDateCheckInput Remove="Pages\DerechoAgua\Create.razor" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <_ContentIncludedByDefault Remove="Pages\DerechoAgua\Create.razor" />
-    <_ContentIncludedByDefault Remove="Pages\DerechoAgua\Detail.razor" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Pages\DerechoAgua\Create.razor" />
-    <None Include="Pages\DerechoAgua\Detail.razor" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <UpToDateCheckInput Remove="Pages\DerechoAgua\Detail.razor" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Reference Include="ProyectoAgua.EN">
       <HintPath>..\DLL\ProyectoAgua.EN.dll</HintPath>
     </Reference>

@@ -6,6 +6,7 @@
 
 
 <h3>Listado de Mora</h3>
+<button id="idNuevo" class="btn btn-primary" @onclick="newMora">Nuevo Mora</button>
 
 @if (!string.IsNullOrEmpty(error))
 {
@@ -58,6 +59,10 @@ else
         {
             error = "Error al cargar la mora: " + ex.Message;
         }
+    }
+    void newMora()
+    {
+        NavManager.NavigateTo("/mora/create");
     }
 
     void ViewDetails(int id)

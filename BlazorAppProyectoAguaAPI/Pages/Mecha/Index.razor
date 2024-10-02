@@ -6,6 +6,7 @@
 
 
 <h3>Listado de Mecha</h3>
+<button id="idNuevo" class="btn btn-primary" @onclick="newMecha">Nuevo Mecha</button>
 
 @if (!string.IsNullOrEmpty(error))
 {
@@ -58,6 +59,10 @@ else
         {
             error = "Error al cargar los mechas: " + ex.Message;
         }
+    }
+    void newMecha()
+    {
+        NavManager.NavigateTo("/mecha/create");
     }
 
     void ViewDetails(int id)

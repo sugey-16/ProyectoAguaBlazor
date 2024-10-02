@@ -1,5 +1,107 @@
-﻿<h3>Edit</h3>
+﻿@page "/derechoAgua/edit/{id:int}"
+@inject HttpClient Http
+@inject NavigationManager NavManager
+@using ProyectoAgua.EN;
+
+
+<h3>Editar Derecho Agua</h3>
+
+@if (!string.IsNullOrEmpty(error))
+{
+    <div class="alert alert-danger">@error</div>
+}
+else if (derechoAgua != null)
+{
+    <div class="row">
+        <div class="col-sm-12">
+            <label class="form-label">ID del derechoAgua:</label>
+            <p>@derechoAgua.Id</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <label class="form-label">Nombre:</label>
+            <input type="text" class="form-control" @bind="derechoAgua.Nombre" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <label class="form-label">Pasaje:</label>
+            <input type="text" class="form-control" @bind="derechoAgua.Pasaje" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <label class="form-label">Casa:</label>
+            <input type="text" class="form-control" @bind="derechoAgua.Casa" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <button class="btn btn-primary" @onclick="UpdateDerechoAgua">Guardar</button>
+            <button class="btn btn-secondary" @onclick="BackToList">Regresar</button>
+        </div>
+    </div>
+}
+else
+{
+    <p>Cargando...</p>
+}
 
 @code {
+    [Parameter] public int id { get; set; }
+    private DerechoAgua? derechoAgua = null; // Asegúrate de que sea privado
+    private string error = string.Empty; // Inicializa como cadena vacía
 
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            // Realiza la petición para obtener el derechoAgua por ID
+            derechoAgua = await Http.GetFromJsonAsync<DerechoAgua>($"DerechoAgua/{id}");
+
+            // Verifica si no se encuentra el derechoAgua
+            if (derechoAgua == null)
+            {
+                error = "No se pudo encontrar el derechoAgua con el ID proporcionado.";
+            }
+        }
+        catch (Exception ex)
+        {
+            // Captura el error y lo muestra en la interfaz
+            error = $"Error al cargar el derechoAgua: {ex.Message}";
+        }
+    }
+
+    public async Task UpdateDerechoAgua()
+    {
+        try
+        {
+            if (derechoAgua == null)
+            {
+                error = "No se puede actualizar un derechoAgua nulo.";
+                return;
+            }
+
+            var resultado = await Http.PutAsJsonAsync($"DerechoAgua/{derechoAgua.Id}", derechoAgua);
+            if (resultado.IsSuccessStatusCode)
+            {
+                BackToList(); // Redirige al listado tras la actualización
+            }
+            else
+            {
+                error = "Error al actualizar el derechoAgua.";
+            }
+        }
+        catch (Exception ex)
+        {
+            error = $"Error al actualizar el derechoAgua: {ex.Message}";
+        }
+    }
+
+    private void BackToList()
+    {
+        // Navega de vuelta al listado de derechoAguas
+        NavManager.NavigateTo("/derechoAgua/index");
+    }
 }

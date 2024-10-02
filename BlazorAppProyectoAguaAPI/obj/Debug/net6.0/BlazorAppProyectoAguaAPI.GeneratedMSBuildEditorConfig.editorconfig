@@ -44,8 +44,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/MINEDUCYT/source/ProyectoAguaBlazor/BlazorAppProyectoAguaAPI/Pages/DerechoAgua/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVyZWNob0FndWFcQ3JlYXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/MINEDUCYT/source/ProyectoAguaBlazor/BlazorAppProyectoAguaAPI/Pages/DerechoAgua/Delete.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVyZWNob0FndWFcRGVsZXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MINEDUCYT/source/ProyectoAguaBlazor/BlazorAppProyectoAguaAPI/Pages/DerechoAgua/Detail.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVyZWNob0FndWFcRGV0YWlsLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/MINEDUCYT/source/ProyectoAguaBlazor/BlazorAppProyectoAguaAPI/Pages/DerechoAgua/Edit.razor]

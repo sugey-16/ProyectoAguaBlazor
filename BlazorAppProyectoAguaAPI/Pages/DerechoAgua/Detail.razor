@@ -1,5 +1,80 @@
-﻿<h3>Detail</h3>
+﻿@page "/derechoAgua/detail/{id:int}"
+@inject HttpClient Http
+@inject NavigationManager NavManager
+@using ProyectoAgua.EN;
+
+
+<h3>Detalles del Derecho Agua</h3>
+
+@if (!string.IsNullOrEmpty(error))
+{
+    <div class="alert alert-danger">@error</div>
+}
+else if (derechoAgua != null)
+{
+    <div class="row">
+        <div class="col-sm-12">
+            <label class="form-label">ID del Derecho:</label>
+            <p>@derechoAgua.Id</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <label class="form-label">Nombre:</label>
+            <p>@derechoAgua.Nombre</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <label class="form-label">Pasaje:</label>
+            <p>@derechoAgua.Pasaje</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <label class="form-label">Casa:</label>
+            <p>@derechoAgua.Casa</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <button class="btn btn-secondary" @onclick="BackToList">Regresar</button>
+        </div>
+    </div>
+}
+else
+{
+    <p>Cargando...</p>
+}
 
 @code {
+    [Parameter] public int id { get; set; }
+    private DerechoAgua? derechoAgua = null; // Cambié a private
+    private string error = ""; // Cambié a private
 
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            // Realiza la petición para obtener el derechoAgua por id
+            derechoAgua = await Http.GetFromJsonAsync<DerechoAgua>($"DerechoAgua/{id}");
+
+            // Verifica si no se encuentra el derechoAgua
+            if (derechoAgua == null)
+            {
+                error = "No se pudo encontrar el derechoAgua con el ID proporcionado.";
+            }
+        }
+        catch (Exception ex)
+        {
+            // Captura el error y lo muestra en la interfaz
+            error = $"Error al cargar el derechoAgua: {ex.Message}";
+        }
+    }
+
+    private void BackToList()
+    {
+        // Navega de vuelta al listado de derechoAguas
+        NavManager.NavigateTo("/derechoAgua/index");
+    }
 }

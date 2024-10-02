@@ -6,6 +6,7 @@
 
 
 <h3>Listado de Consumos</h3>
+<button id="idNuevo" class="btn btn-primary" @onclick="newConsumo">Nuevo Consumo</button>
 
 @if (!string.IsNullOrEmpty(error))
 {
@@ -58,6 +59,10 @@ else
         {
             error = "Error al cargar los consumos: " + ex.Message;
         }
+    }
+    void newConsumo()
+    {
+        NavManager.NavigateTo("/consumo/create");
     }
 
     void ViewDetails(int id)
