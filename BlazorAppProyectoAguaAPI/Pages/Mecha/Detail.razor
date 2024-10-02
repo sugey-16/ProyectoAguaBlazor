@@ -1,5 +1,74 @@
-﻿<h3>Detail</h3>
+﻿@page "/mecha/detail/{id:int}"
+@inject HttpClient Http
+@inject NavigationManager NavManager
+@using ProyectoAgua.EN;
+
+
+<h3>Detalles del Mecha</h3>
+
+@if (!string.IsNullOrEmpty(error))
+{
+    <div class="alert alert-danger">@error</div>
+}
+else if (mecha != null)
+{
+    <div class="row">
+        <div class="col-sm-12">
+            <label class="form-label">ID del Mecha:</label>
+            <p>@mecha.Id</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <label class="form-label">IdDerechoAgua:</label>
+            <p>@mecha.IdDerechoAgua</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <label class="form-label">CantidadMecha:</label>
+            <p>@mecha.CantidadMecha</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <button class="btn btn-secondary" @onclick="BackToList">Regresar</button>
+        </div>
+    </div>
+}
+else
+{
+    <p>Cargando...</p>
+}
 
 @code {
+    [Parameter] public int id { get; set; }
+    private Mecha? mecha = null; // Cambié a private
+    private string error = ""; // Cambié a private
 
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            // Realiza la petición para obtener el consumo por id
+            mecha = await Http.GetFromJsonAsync<Mecha>($"Mecha/{id}");
+
+            // Verifica si no se encuentra lA mecha
+            if (mecha == null)
+            {
+                error = "No se pudo encontrar lA mecha con el ID proporcionado.";
+            }
+        }
+        catch (Exception ex)
+        {
+            // Captura el error y lo muestra en la interfaz
+            error = $"Error al cargar la mecha: {ex.Message}";
+        }
+    }
+
+    private void BackToList()
+    {
+        // Navega de vuelta al listado de mecha
+        NavManager.NavigateTo("/mecha/index");
+    }
 }

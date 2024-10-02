@@ -1,5 +1,101 @@
-﻿<h3>Edit</h3>
+﻿@page "/mecha/edit/{id:int}"
+@inject HttpClient Http
+@inject NavigationManager NavManager
+@using ProyectoAgua.EN;
+
+
+<h3>Editar Mecha</h3>
+
+@if (!string.IsNullOrEmpty(error))
+{
+    <div class="alert alert-danger">@error</div>
+}
+else if (mecha != null)
+{
+    <div class="row">
+        <div class="col-sm-12">
+            <label class="form-label">ID del Mecha:</label>
+            <p>@mecha.Id</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <label class="form-label">IdDerechoAgua:</label>
+            <input type="number" class="form-control" @bind="mecha.IdDerechoAgua" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <label class="form-label">Cantidad de Mora:</label>
+            <input type="text" class="form-control" @bind="mecha.CantidadMecha" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <button class="btn btn-primary" @onclick="UpdateMecha">Guardar</button>
+            <button class="btn btn-secondary" @onclick="BackToList">Regresar</button>
+        </div>
+    </div>
+}
+else
+{
+    <p>Cargando...</p>
+}
 
 @code {
+    [Parameter] public int id { get; set; }
+    private Mecha? mecha = null; // Asegúrate de que sea privado
+    private string error = string.Empty; // Inicializa como cadena vacía
 
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            // Realiza la petición para obtener el mecha por ID
+            mecha = await Http.GetFromJsonAsync<Mecha>($"Mecha/{id}");
+
+            // Verifica si no se encuentra el consumo
+            if (mecha == null)
+            {
+                error = "No se pudo encontrar la Mecha con el ID proporcionado.";
+            }
+        }
+        catch (Exception ex)
+        {
+            // Captura el error y lo muestra en la interfaz
+            error = $"Error al cargar el mecha: {ex.Message}";
+        }
+    }
+
+    public async Task UpdateMecha()
+    {
+        try
+        {
+            if (mecha == null)
+            {
+                error = "No se puede actualizar una Mecha nulo.";
+                return;
+            }
+
+            var resultado = await Http.PutAsJsonAsync($"Mecha/{mecha.Id}", mecha);
+            if (resultado.IsSuccessStatusCode)
+            {
+                BackToList(); // Redirige al listado tras la actualización
+            }
+            else
+            {
+                error = "Error al actualizar la mecha.";
+            }
+        }
+        catch (Exception ex)
+        {
+            error = $"Error al actualizar la mecha: {ex.Message}";
+        }
+    }
+
+    private void BackToList()
+    {
+        // Navega de vuelta al listado de mechas
+        NavManager.NavigateTo("/mecha/index");
+    }
 }

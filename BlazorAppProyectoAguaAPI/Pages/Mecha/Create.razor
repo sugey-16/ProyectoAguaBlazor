@@ -1,4 +1,63 @@
 ﻿@page "/mecha/create"
-@code {
+@using ProyectoAgua.EN;
+@using BlazorAppProyectoAguaAPI.Data;
+@inject HttpClient Http;
+@inject NavigationManager NavManager
 
+<h3>Crear Mecha</h3>
+
+<div class="row">
+    <div class="col-sm-12">
+        <label class="form-label">ID Derecho Agua</label>
+        <input type="number" class="form-control" id="idDerechoAgua" @bind="mecha.IdDerechoAgua" />
+
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <label class="form-label">Cantidad de Mecha</label>
+        <input type="text" class="form-control" id="idCantidadMecha" @bind="mecha.CantidadMecha" />
+
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <button class="btn btn-primary" @onclick="CreateMecha">Guardar</button>
+        <button class="btn btn-secondary" @onclick="BackToList">Regresar</button>
+    </div>
+</div>
+
+@code {
+    Mecha mecha = new Mecha();
+    string error = "";
+
+    public async Task CreateMecha()
+    {
+        try
+        {
+            // Realiza la solicitud HTTP POST
+            var resultado = await Http.PostAsJsonAsync("Mecha", mecha);
+
+            // Verifica si la solicitud fue exitosa
+            if (resultado.IsSuccessStatusCode)
+            {
+                BackToList();
+            }
+            else
+            {
+                error = "Error al ingresar la mecha.";
+            }
+        }
+        catch (Exception ex)
+        {
+            // Manejo de excepciones y mensaje de error
+            error = $"Error: {ex.Message}";
+        }
+    }
+
+    // Navega de regreso al índice
+    void BackToList()
+    {
+        NavManager.NavigateTo("/mecha/index");
+    }
 }

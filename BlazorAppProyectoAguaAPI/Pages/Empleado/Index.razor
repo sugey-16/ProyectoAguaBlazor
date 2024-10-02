@@ -1,5 +1,100 @@
-﻿<h3>Index</h3>
+﻿@page "/empleado/index"
+@inject HttpClient Http
+@inject NavigationManager NavManager
+@inject IJSRuntime JSRuntime
+@using ProyectoAgua.EN;
+
+
+<h3>Listado de EmpleadoS</h3>
+
+@if (!string.IsNullOrEmpty(error))
+{
+    <div class="alert alert-danger">@error</div>
+}
+else if (empleados != null)
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Direccion</th>
+                <th>Entrada</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var empleado in empleados)
+            {
+                <tr>
+                    <td>@empleado.Id</td>
+                    <td>@empleado.Nombre</td>
+                    <td>@empleado.Direccion</td>
+                    <td>@empleado.Entrada</td>
+                    <td>
+                        <button class="btn btn-info" @onclick="() => ViewDetails(empleado.Id)">Detalles</button>
+                        <button class="btn btn-warning" @onclick="() => EditEmpleado(empleado.Id)">Editar</button>
+                        <button class="btn btn-danger" @onclick="() => DeleteEmpleado(empleado.Id)">Eliminar</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Cargando...</p>
+}
 
 @code {
+    List<Empleado> empleados = null;
+    string error = "";
 
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            empleados = await Http.GetFromJsonAsync<List<Empleado>>("Empleado");
+        }
+        catch (Exception ex)
+        {
+            error = "Error al cargar los empleados: " + ex.Message;
+        }
+    }
+
+    void ViewDetails(int id)
+    {
+        NavManager.NavigateTo($"/empleado/detail/{id}");
+    }
+
+    void EditEmpleado(int id)
+    {
+        NavManager.NavigateTo($"/empleado/edit/{id}");
+    }
+
+    async Task DeleteEmpleado(int id)
+    {
+        try
+        {
+            var confirm = await JSRuntime.InvokeAsync<bool>("confirm", $"¿Estás seguro de que deseas eliminar el empleado con ID {id}?");
+            if (confirm)
+            {
+                var resultado = await Http.DeleteAsync($"Empleado/{id}");
+
+                if (resultado.IsSuccessStatusCode)
+                {
+                    // Recarga los empleados después de eliminar
+                    empleados = await Http.GetFromJsonAsync<List<Empleado>>("Empleado");
+                }
+                else
+                {
+                    error = "Error al eliminar el empleado.";
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            error = "Error al eliminar el empleado: " + ex.Message;
+        }
+    }
 }

@@ -1,5 +1,59 @@
-﻿<h3>Delete</h3>
+﻿@page "/mecha/delete"
+@inject HttpClient Http
+@inject NavigationManager NavManager
+
+
+<h3>Eliminar Mecha</h3>
+
+<div class="row">
+    <div class="col-sm-12">
+        <label class="form-label">ID de la mecha a Eliminar</label>
+        <input type="number" class="form-control" id="idMecha" @bind="mechaId" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <button class="btn btn-danger" @onclick="DeleteMecha">Eliminar</button>
+        <button class="btn btn-secondary" @onclick="BackToList">Regresar</button>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <span style="color:red; font-weight:bold">@error</span>
+    </div>
+</div>
 
 @code {
+    int mechaId;
+    string error = "";
 
+    public async Task DeleteMecha()
+    {
+        try
+        {
+            // Realiza la solicitud HTTP DELETE
+            var resultado = await Http.DeleteAsync($"Mecha/{mechaId}");
+
+            // Verifica si la solicitud fue exitosa
+            if (resultado.IsSuccessStatusCode)
+            {
+                BackToList(); // Redirige al listado o a otra página tras la eliminación
+            }
+            else
+            {
+                error = "Error al eliminar la mecha.";
+            }
+        }
+        catch (Exception ex)
+        {
+            // Manejo de excepciones y mensaje de error
+            error = $"Error: {ex.Message}";
+        }
+    }
+
+    // Navega de regreso al índice
+    void BackToList()
+    {
+        NavManager.NavigateTo("/mecha/index");
+    }
 }

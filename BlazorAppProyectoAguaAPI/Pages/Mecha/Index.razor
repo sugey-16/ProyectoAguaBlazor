@@ -1,5 +1,98 @@
-﻿<h3>Index</h3>
+﻿@page "/mecha/index"
+@inject HttpClient Http
+@inject NavigationManager NavManager
+@inject IJSRuntime JSRuntime
+@using ProyectoAgua.EN;
+
+
+<h3>Listado de Mecha</h3>
+
+@if (!string.IsNullOrEmpty(error))
+{
+    <div class="alert alert-danger">@error</div>
+}
+else if (mechas != null)
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>IdDerechoAgua</th>
+                <th>CantidadMecha </th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var mecha in mechas)
+            {
+                <tr>
+                    <td>@mecha.Id</td>
+                    <td>@mecha.IdDerechoAgua</td>
+                    <td>@mecha.CantidadMecha</td>
+                    <td>
+                        <button class="btn btn-info" @onclick="() => ViewDetails(mecha.Id)">Detalles</button>
+                        <button class="btn btn-warning" @onclick="() => EditMecha(mecha.Id)">Editar</button>
+                        <button class="btn btn-danger" @onclick="() => DeleteMecha(mecha.Id)">Eliminar</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Cargando...</p>
+}
 
 @code {
+    List<Mecha> mechas = null;
+    string error = "";
 
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            mechas = await Http.GetFromJsonAsync<List<Mecha>>("Mecha");
+        }
+        catch (Exception ex)
+        {
+            error = "Error al cargar los mechas: " + ex.Message;
+        }
+    }
+
+    void ViewDetails(int id)
+    {
+        NavManager.NavigateTo($"/mecha/detail/{id}");
+    }
+
+    void EditMecha(int id)
+    {
+        NavManager.NavigateTo($"/mecha/edit/{id}");
+    }
+
+    async Task DeleteMecha(int id)
+    {
+        try
+        {
+            var confirm = await JSRuntime.InvokeAsync<bool>("confirm", $"¿Estás seguro de que deseas eliminar la mecha con ID {id}?");
+            if (confirm)
+            {
+                var resultado = await Http.DeleteAsync($"Mecha/{id}");
+
+                if (resultado.IsSuccessStatusCode)
+                {
+                    // Recarga los consumos después de eliminar
+                    mechas = await Http.GetFromJsonAsync<List<Mecha>>("Mecha");
+                }
+                else
+                {
+                    error = "Error al eliminar el mecha.";
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            error = "Error al eliminar el mecha: " + ex.Message;
+        }
+    }
 }

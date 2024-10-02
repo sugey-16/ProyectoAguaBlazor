@@ -1,5 +1,98 @@
-﻿<h3>Index</h3>
+﻿@page "/mora/index"
+@inject HttpClient Http
+@inject NavigationManager NavManager
+@inject IJSRuntime JSRuntime
+@using ProyectoAgua.EN;
+
+
+<h3>Listado de Mora</h3>
+
+@if (!string.IsNullOrEmpty(error))
+{
+    <div class="alert alert-danger">@error</div>
+}
+else if (moras != null)
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>IdDerechoAgua</th>
+                <th>CantidadMora  </th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var mora in moras)
+            {
+                <tr>
+                    <td>@mora.Id</td>
+                    <td>@mora.IdDerechoAgua</td>
+                    <td>@mora.CantidadMora </td>
+                    <td>
+                        <button class="btn btn-info" @onclick="() => ViewDetails(mora.Id)">Detalles</button>
+                        <button class="btn btn-warning" @onclick="() => EditMora(mora.Id)">Editar</button>
+                        <button class="btn btn-danger" @onclick="() => DeleteMora(mora.Id)">Eliminar</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Cargando...</p>
+}
 
 @code {
+    List<Mora> moras = null;
+    string error = "";
 
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            moras = await Http.GetFromJsonAsync<List<Mora>>("Mora");
+        }
+        catch (Exception ex)
+        {
+            error = "Error al cargar la mora: " + ex.Message;
+        }
+    }
+
+    void ViewDetails(int id)
+    {
+        NavManager.NavigateTo($"/mora/detail/{id}");
+    }
+
+    void EditMora(int id)
+    {
+        NavManager.NavigateTo($"/mora/edit/{id}");
+    }
+
+    async Task DeleteMora(int id)
+    {
+        try
+        {
+            var confirm = await JSRuntime.InvokeAsync<bool>("confirm", $"¿Estás seguro de que deseas eliminar la mora con ID {id}?");
+            if (confirm)
+            {
+                var resultado = await Http.DeleteAsync($"Mora/{id}");
+
+                if (resultado.IsSuccessStatusCode)
+                {
+                    // Recarga los consumos después de eliminar
+                    moras = await Http.GetFromJsonAsync<List<Mora>>("Mora");
+                }
+                else
+                {
+                    error = "Error al eliminar la mora.";
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            error = "Error al eliminar el mora: " + ex.Message;
+        }
+    }
 }
