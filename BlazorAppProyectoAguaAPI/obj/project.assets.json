@@ -8,24 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Panda\\.nuget\\packages\\": {},
-    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\MINEDUCYT\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj",
+      "projectUniqueName": "C:\\Users\\MINEDUCYT\\source\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj",
       "projectName": "BlazorAppProyectoAguaAPI",
-      "projectPath": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj",
-      "packagesPath": "C:\\Users\\Panda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Panda\\source\\repos\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\obj\\",
+      "projectPath": "C:\\Users\\MINEDUCYT\\source\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\BlazorAppProyectoAguaAPI.csproj",
+      "packagesPath": "C:\\Users\\MINEDUCYT\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MINEDUCYT\\source\\ProyectoAguaBlazor\\BlazorAppProyectoAguaAPI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Panda\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\MINEDUCYT\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -46,11 +41,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -75,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
