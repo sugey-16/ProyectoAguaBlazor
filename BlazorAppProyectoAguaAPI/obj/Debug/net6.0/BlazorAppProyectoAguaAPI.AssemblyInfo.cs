@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlazorAppProyectoAguaAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cab03525445148f1c323bb98c0f0852bc14685e1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0d1fc073bdf701c44090529e8859e7e2ad40d55")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlazorAppProyectoAguaAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlazorAppProyectoAguaAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
