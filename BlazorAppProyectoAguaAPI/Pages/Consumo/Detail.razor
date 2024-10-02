@@ -1,5 +1,72 @@
-﻿@page "/consumo/detail"
-<input>
-@code {
+﻿@page "/consumo/detail/{id:int}"
+@inject HttpClient Http
+@inject NavigationManager NavManager
 
+<h3>Detalles del Consumo</h3>
+
+@if (!string.IsNullOrEmpty(error))
+{
+    <div class="alert alert-danger">@error</div>
+}
+else if (consumo != null)
+{
+    <div class="row">
+        <div class="col-sm-12">
+            <label class="form-label">ID del Consumo:</label>
+            <p>@consumo.Id</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <label class="form-label">IdDerechoAgua:</label>
+            <p>@consumo.IdDerechoAgua</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <label class="form-label">Mora:</label>
+            <p>@consumo.Mora</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <button class="btn btn-secondary" @onclick="BackToList">Regresar</button>
+        </div>
+    </div>
+}
+else
+{
+    <p>Cargando...</p>
+}
+
+@code {
+    [Parameter] public int id { get; set; }
+    private Consumo? consumo = null; // Cambié a private
+    private string error = ""; // Cambié a private
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            // Realiza la petición para obtener el consumo por id
+            consumo = await Http.GetFromJsonAsync<Consumo>($"Consumo/{id}");
+
+            // Verifica si no se encuentra el consumo
+            if (consumo == null)
+            {
+                error = "No se pudo encontrar el consumo con el ID proporcionado.";
+            }
+        }
+        catch (Exception ex)
+        {
+            // Captura el error y lo muestra en la interfaz
+            error = $"Error al cargar el consumo: {ex.Message}";
+        }
+    }
+
+    private void BackToList()
+    {
+        // Navega de vuelta al listado de consumos
+        NavManager.NavigateTo("/consumo/index");
+    }
 }

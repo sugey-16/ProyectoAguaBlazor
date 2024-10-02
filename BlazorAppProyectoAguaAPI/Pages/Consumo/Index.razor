@@ -1,5 +1,96 @@
-﻿<h3>Index</h3>
+﻿@page "/consumo/index"
+@inject HttpClient Http
+@inject NavigationManager NavManager
+@inject IJSRuntime JSRuntime
+
+<h3>Listado de Consumos</h3>
+
+@if (!string.IsNullOrEmpty(error))
+{
+    <div class="alert alert-danger">@error</div>
+}
+else if (consumos != null)
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>IdDerechoAgua</th>
+                <th>Mora</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var consumo in consumos)
+            {
+                <tr>
+                    <td>@consumo.Id</td>
+                    <td>@consumo.IdDerechoAgua</td>
+                    <td>@consumo.Mora</td>
+                    <td>
+                        <button class="btn btn-info" @onclick="() => ViewDetails(consumo.Id)">Detalles</button>
+                        <button class="btn btn-warning" @onclick="() => EditConsumo(consumo.Id)">Editar</button>
+                        <button class="btn btn-danger" @onclick="() => DeleteConsumo(consumo.Id)">Eliminar</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Cargando...</p>
+}
 
 @code {
+    List<Consumo> consumos = null;
+    string error = "";
 
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            consumos = await Http.GetFromJsonAsync<List<Consumo>>("Consumo");
+        }
+        catch (Exception ex)
+        {
+            error = "Error al cargar los consumos: " + ex.Message;
+        }
+    }
+
+    void ViewDetails(int id)
+    {
+        NavManager.NavigateTo($"/consumo/detail/{id}");
+    }
+
+    void EditConsumo(int id)
+    {
+        NavManager.NavigateTo($"/consumo/edit/{id}");
+    }
+
+    async Task DeleteConsumo(int id)
+    {
+        try
+        {
+            var confirm = await JSRuntime.InvokeAsync<bool>("confirm", $"¿Estás seguro de que deseas eliminar el consumo con ID {id}?");
+            if (confirm)
+            {
+                var resultado = await Http.DeleteAsync($"Consumo/{id}");
+
+                if (resultado.IsSuccessStatusCode)
+                {
+                    // Recarga los consumos después de eliminar
+                    consumos = await Http.GetFromJsonAsync<List<Consumo>>("Consumo");
+                }
+                else
+                {
+                    error = "Error al eliminar el consumo.";
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            error = "Error al eliminar el consumo: " + ex.Message;
+        }
+    }
 }

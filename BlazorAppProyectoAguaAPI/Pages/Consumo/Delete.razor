@@ -1,6 +1,58 @@
 ﻿@page "/consumo/delete"
-<input>
+@inject HttpClient Http
+@inject NavigationManager NavManager
+
+<h3>Eliminar Consumo</h3>
+
+<div class="row">
+    <div class="col-sm-12">
+        <label class="form-label">ID del Consumo a Eliminar</label>
+        <input type="number" class="form-control" id="idConsumo" @bind="consumoId" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <button class="btn btn-danger" @onclick="DeleteConsumo">Eliminar</button>
+        <button class="btn btn-secondary" @onclick="BackToList">Regresar</button>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <span style="color:red; font-weight:bold">@error</span>
+    </div>
+</div>
 
 @code {
+    int consumoId;
+    string error = "";
 
+    public async Task DeleteConsumo()
+    {
+        try
+        {
+            // Realiza la solicitud HTTP DELETE
+            var resultado = await Http.DeleteAsync($"Consumo/{consumoId}");
+
+            // Verifica si la solicitud fue exitosa
+            if (resultado.IsSuccessStatusCode)
+            {
+                BackToList(); // Redirige al listado o a otra página tras la eliminación
+            }
+            else
+            {
+                error = "Error al eliminar el consumo.";
+            }
+        }
+        catch (Exception ex)
+        {
+            // Manejo de excepciones y mensaje de error
+            error = $"Error: {ex.Message}";
+        }
+    }
+
+    // Navega de regreso al índice
+    void BackToList()
+    {
+        NavManager.NavigateTo("/consumo/index");
+    }
 }

@@ -1,6 +1,5 @@
 ﻿@page "/derechoagua/create"
 @using ProyectoAgua.EN;
-@using BlazorAppProyectoAguaAPI.Data;
 @inject HttpClient Http;
 @inject NavigationManager NavManager
 
@@ -9,19 +8,19 @@
 <div class="row">
     <div class="col-sm-12">
         <label class="form-label">Nombre</label>
-        <input type="text" class="form-control" id="idNombre" @bind-value="derechoAgua.Nombre" />
+        <input type="text" class="form-control" id="idNombre" @bind="derechoAgua.Nombre" />
     </div>
 </div>
 <div class="row">
     <div class="col-sm-12">
         <label class="form-label">Pasaje</label>
-        <input type="text" class="form-control" id="idPasaje" @bind-value="derechoAgua.Pasaje" />
+        <input type="text" class="form-control" id="idPasaje" @bind="derechoAgua.Pasaje" />
     </div>
 </div>
 <div class="row">
     <div class="col-sm-12">
         <label class="form-label">Casa</label>
-        <input type="text" class="form-control" id="idCasa" @bind-value="derechoAgua.Casa" />
+        <input type="text" class="form-control" id="idCasa" @bind="derechoAgua.Casa" />
     </div>
 </div>
 <div class="row">
@@ -35,6 +34,7 @@
         <span style="color:red; font-weight:bold">@error</span>
     </div>
 </div>
+
 @code {
     DerechoAgua? derechoAgua = new DerechoAgua();
     string error = "";
@@ -43,25 +43,29 @@
     {
         try
         {
-            var resultado = await Http.PostAsJsonAsync<DerechoAgua>("DerechoAgua", derechoAgua);
+            // Realiza la solicitud HTTP POST
+            var resultado = await Http.PostAsJsonAsync("DerechoAgua", derechoAgua);
 
-            if (Convert.ToInt32(resultado.StatusCode) == 200)
+            // Verifica si la solicitud fue exitosa
+            if (resultado.IsSuccessStatusCode)
             {
                 Index();
             }
             else
             {
-                error = "Error al Ingresar el DerechoAgua";
+                error = "Error al ingresar el DerechoAgua.";
             }
         }
         catch (Exception ex)
         {
-            throw new Exception(ex.Message.ToString());
+            // Manejo de excepciones y mensaje de error
+            error = $"Error: {ex.Message}";
         }
     }
 
+    // Navega de regreso al índice
     void Index()
     {
-        NavManager.NavigateTo("/derechoAgua/index");
+        NavManager.NavigateTo("/derechoagua/index");
     }
 }

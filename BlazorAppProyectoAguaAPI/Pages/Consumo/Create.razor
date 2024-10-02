@@ -1,6 +1,69 @@
 ﻿@page "/consumo/create"
-<input/>
+@using ProyectoAgua.EN;
+@using BlazorAppProyectoAguaAPI.Data;
+@inject HttpClient Http;
+@inject NavigationManager NavManager
+
+<h3>Crear Consumo</h3>
+
+<div class="row">
+    <div class="col-sm-12">
+        <label class="form-label">ID Derecho Agua</label>
+        <input type="number" class="form-control" id="idDerechoAgua" @bind="consumo.IdDerechoAgua" />
+        @if (!string.IsNullOrEmpty(error) && string.IsNullOrEmpty(consumo.Mora))
+        {
+            <span style="color:red;">@error</span>
+        }
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <label class="form-label">Mora</label>
+        <input type="text" class="form-control" id="idMora" @bind="consumo.Mora" />
+        @if (!string.IsNullOrEmpty(error) && string.IsNullOrEmpty(consumo.Mora))
+        {
+            <span style="color:red;">@error</span>
+        }
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <button class="btn btn-primary" @onclick="CreateConsumo">Guardar</button>
+        <button class="btn btn-secondary" @onclick="BackToList">Regresar</button>
+    </div>
+</div>
 
 @code {
+    Consumo consumo = new Consumo();
+    string error = "";
 
+    public async Task CreateConsumo()
+    {
+        try
+        {
+            // Realiza la solicitud HTTP POST
+            var resultado = await Http.PostAsJsonAsync("Consumo", consumo);
+
+            // Verifica si la solicitud fue exitosa
+            if (resultado.IsSuccessStatusCode)
+            {
+                BackToList();
+            }
+            else
+            {
+                error = "Error al ingresar el Consumo.";
+            }
+        }
+        catch (Exception ex)
+        {
+            // Manejo de excepciones y mensaje de error
+            error = $"Error: {ex.Message}";
+        }
+    }
+
+    // Navega de regreso al índice
+    void BackToList()
+    {
+        NavManager.NavigateTo("/consumo/index");
+    }
 }
