@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "BlazorAppProyectoAguaAPI/1.0.0": {
+        "dependencies": {
+          "ProyectoAgua.EN": "1.0.0.0"
+        },
+        "runtime": {
+          "BlazorAppProyectoAguaAPI.dll": {}
+        }
+      },
+      "ProyectoAgua.EN/1.0.0.0": {
+        "runtime": {
+          "ProyectoAgua.EN.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BlazorAppProyectoAguaAPI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProyectoAgua.EN/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

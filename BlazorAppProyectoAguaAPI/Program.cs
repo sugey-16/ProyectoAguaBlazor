@@ -7,9 +7,14 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
+//builder.Services.AddScoped(sp => new HttpClient
+//{
+//    BaseAddress = new Uri("http://ProyectoAgua.somee.com")
+//});
+
 builder.Services.AddScoped(sp => new HttpClient
 {
-    BaseAddress = new Uri("http://ProyectoAgua.somee.com")
+    BaseAddress = new Uri("https://localhost:7195/api/")
 });
 
 var app = builder.Build();

@@ -12,12 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="ProyectoAgua.EN">
-      <HintPath>..\..\..\..\Documents\sitio2\ProyectoAgua.EN.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
-  <ItemGroup>
     <UpToDateCheckInput Remove="Pages\DerechoAgua\Create.razor" />
   </ItemGroup>
 
@@ -33,6 +27,12 @@
 
   <ItemGroup>
     <UpToDateCheckInput Remove="Pages\DerechoAgua\Detail.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ProyectoAgua.EN">
+      <HintPath>..\DLL\ProyectoAgua.EN.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
